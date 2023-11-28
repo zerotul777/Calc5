@@ -1,0 +1,94 @@
+.calc {
+    margin: 50px auto;
+    width: 380px;
+    height: 400px;
+    border: 1px solid #6c757d;
+    border-radius: 20px;
+    background: rgb(33,37,41);
+    color: white;
+    font-family: Arial;
+    padding: 18px;
+    box-shadow: 4px 4px 4px #4f4f4f;
+}
+.form {
+    margin-bottom: 0.5rem;
+    display: block;
+    width: 93%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    border-radius: 0.375rem;
+    background-clip: padding-box;
+    appearance: none;
+    border-color: #6c757d;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.buttons {
+    display: flex;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    user-select: none;
+    width: 100%;
+}
+.btn {
+    cursor: pointer;
+    color: white;
+    margin-right: 0.2rem !important;
+    margin-left: 0.2rem !important;
+    flex-grow: 1 !important;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    border-radius: 7px;
+    box-shadow: #4f4f4f;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.btn:hover {
+    filter: brightness(80%);
+}
+
+.btn-plus {
+    background-color: #198754;
+    border-color: #198754;
+}
+.btn-minus {
+    background-color: #dc3545;
+    border-color:#dc3545;
+}
+.btn-mult {
+    background-color: #b6b300;
+    border-color:#b6b300;
+}
+.btn-div {
+    background-color: #4035dc;
+    border-color:#4035dc;
+}
+.btn-submit {
+    margin-top: 10px;
+    width: 99%;
+    color: #0dcaf0;
+    border-color: #0dcaf0;
+    background-color: transparent;
+}
+.btn-submit:hover {
+    background-color: #0dcaf0;
+    color: black;
+}
+
+.result-window {
+    margin-top: 1rem;
+    padding: 6px;
+    display: block;
+    background-color: white;
+    color: black;
+    width: 97%;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 0.375rem;
+}
+.result {
+    font-size: 20px;
+}
